@@ -20,6 +20,7 @@ class CustomTextWidgets extends StatelessWidget {
     return Text(
       title,
       maxLines: maxline,
+     
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
         fontSize: fontSize,
